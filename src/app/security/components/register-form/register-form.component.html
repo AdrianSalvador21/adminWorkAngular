@@ -1,0 +1,21 @@
+<div class="row mt-5 justify-content-center">
+  <div class="col-10 col-sm-10 col-md-6 col-lg-4">
+    <p class="lead text-center">Registrate</p>
+    <form #forma2="ngForm">
+      <mat-form-field class="form-input">
+        <input matInput placeholder="Nombre">
+      </mat-form-field>
+      <mat-form-field class="form-input">
+        <input matInput placeholder="Perfil">
+      </mat-form-field>
+      <mat-form-field class="form-input">
+        <input matInput placeholder="Correo">
+      </mat-form-field>
+      <mat-form-field class="form-input">
+        <input matInput placeholder="Contraseña">
+      </mat-form-field>
+      <button mat-raised-button style="float: right">Registrar</button>
+    </form>
+    <small (click)="viewLogin()" id="emailHelp" class="form-text text-muted changeForm mb-3">¿Ya tienes una cuenta? Inicia sesión aquí!</small>
+  </div>
+</div>
