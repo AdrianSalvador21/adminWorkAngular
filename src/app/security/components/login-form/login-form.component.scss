@@ -6,3 +6,18 @@
   cursor: pointer;
 }
 
+.card-header {
+  background-color: #009688;
+}
+.card-header p {
+  margin-top: 15px;
+  color: white;
+}
+.example-card {
+  max-width: 400px;
+}
+
+.example-header-image {
+  background-image: url('https://material.angular.io/assets/img/examples/shiba1.jpg');
+  background-size: cover;
+}
